@@ -38,7 +38,7 @@ Once you have the ticker symbols for the companies you are interested in, update
 ```python
 # Define the tickers for your target companies
 tickers = ["AAPL", "MSFT", "GOOGL"]  # Replace with your target companies' tickers
-
+```
 ### Downloading SEC Filings
 Run the `download_filings.py` file and notice the folowing : 
 Replace `your_email@example.com` with your actual email address before running the script. This email is required by the SEC's Fair Access Rule.[Source](https://www.sec.gov/os/webmaster-faq#code-support)
