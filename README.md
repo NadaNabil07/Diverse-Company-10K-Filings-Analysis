@@ -37,7 +37,7 @@ Once you have the ticker symbols for the companies you are interested in, update
 
 ```python
 # Define the tickers for your target companies
-tickers = ["AAPL", "MSFT", "GOOGL"]  # Replace with your target companies' tickers
+tickers = ["CAT", "PFE", "SQ"]  # Replace with your chosen companies
 ```
 ### Downloading SEC Filings
 Run the `download_filings.py` file and notice the folowing : 
