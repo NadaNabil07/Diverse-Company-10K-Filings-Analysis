@@ -22,3 +22,4 @@ Replace `your_email@example.com` with your actual email address before running t
 
 To run the script, execute it in your terminal:
 `python download_filings.py`
+This will download all the 10-K filings for the specified companies and years into the sec_filings directory.
