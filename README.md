@@ -18,7 +18,7 @@ git clone https://github.com/NadaNabil07/Diverse-Company-10K-Filings-Analysis/tr
 
 ### Downloading SEC Filings
 Run the `download_filings.py` file and notice the folowing : 
-Replace `your_email@example.com` with your actual email address before running the script. This email is required by the SEC's Fair Access Rule.
+Replace `your_email@example.com` with your actual email address before running the script. This email is required by the SEC's Fair Access Rule.[a link](https://github.com/user/repo/blob/branch/other_file.md)
 
 To run the script, execute it in your terminal:
 `python download_filings.py`
