@@ -17,9 +17,7 @@ git clone https://github.com/NadaNabil07/Diverse-Company-10K-Filings-Analysis/tr
 `pip install sec_edgar_downloader`
 ## Project Rationale
 
-The companies chosen for this analysis, Caterpillar Inc. (CAT), Pfizer Inc. (PFE), and Square Inc. (SQ), represent a diverse cross-section of the American economy, covering the manufacturing, pharmaceutical, and financial services sectors respectively. This selection provides a broad perspective on different market dynamics and business strategies, which can be indicative of larger trends in their respective industries.
-
-Caterpillar Inc. is a bellwether for the manufacturing and construction industries, Pfizer Inc. is a key player in the pharmaceutical and biotech sectors, and Square Inc. is an innovator in the financial technology space. Analyzing these companies' 10-K filings can yield valuable insights into the operational health and strategic direction of these economic segments.
+In this project we have  choosen companies to download 10 K filings to go for a mix, like Caterpillar Inc., Pfizer Inc. And Square, Inc. Caterpillar gives you a peek into machinery Pfizer shows you the pharmaceutical world and Square dives into the fintech scene. By covering industries, market sizes and locations you can get a grasp of diverse sectors along, with their unique hurdles and chances.
 
 ### Customizing the Analysis for Other Companies
 
