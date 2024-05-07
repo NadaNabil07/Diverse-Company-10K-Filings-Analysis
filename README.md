@@ -11,3 +11,7 @@ Before running the analysis, you need to download the necessary 10-K filings. Th
 ### Setup
 
 1. Clone this repository to your local machine using:
+git clone https://github.com/your-username/Diverse-Company-10K-Filings-Analysis.git
+
+2. Install the required Python package by running:
+pip install sec_edgar_downloader
