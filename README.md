@@ -92,5 +92,17 @@ A Python script `LLM_API.py` was developed to send prompts to the API and receiv
 To run the script, use the following command in the terminal:
 
 ```powershell
-& python LLM_API.py
+ python LLM_API.py
+## Insights 
+To generate insights run the Python script named Insight_Generation.py.
+
+Why These Insights Matter to Users
+These insights are valuable, for investors, analysts and stakeholders as they help in making informed investment decisions understanding company performance and forecasting trends.
+
+Visuals
+You can find the representations, in the 'visualizations folder. They present the insights graphically simplifying data for comprehension.
+
+Wrap up
+This project offers a set of tools to analyze and visualize details extracted from 10 K filings. It assists stakeholders in their decision making processes.
+
 
