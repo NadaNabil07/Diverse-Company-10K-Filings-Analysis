@@ -64,3 +64,33 @@ This script will process each text file in the specified directory, extracting a
 1. Navigate to the directory where the script is located.
 3. Run the script `Extract_data.py` with the specified directory containing the text files as an argument.
 
+## Step 2: Text Generation with Hugging Face API
+
+In this stage we make use of the Hugging Face API to carry out text generation tasks using the information extracted from SEC EDGAR 10 K filings. We utilize the `distilgpt2` model, which's a compact version of the GPT 2 model designed for quicker inference, with minimal impact on performance.
+
+To access the Hugging Face API you will need to acquire an API key. Follow these steps to obtain your API key;
+
+1. Visit the [Hugging Face website](https;//huggingface.co/).
+2. Create an account if you are not already registered.
+3. Once you are logged in navigate, to your account settings.
+4. Locate the API keys section and generate an API key.
+
+
+### services provide plans or trial periods, for utilizing LLM APIs;
+
+ **Hugging Face**; Offers a tier with restricted usage, ideal for development and small scale applications.
+ **OpenAI**; Grants access to GPT 3 and GPT 4 models providing users with credits upon registration.
+ **AI21 Studio**; Allows access to their Jurassic 1 LLM offering credits that renew every month.
+ **Cohere**; Provides a tier with an amount of complimentary credits suitable, for various NLP tasks.
+
+### Implementation
+
+A Python script `LLM_API.py` was developed to send prompts to the API and receive generated text. The script handles API responses and prints out the generated text or error messages accordingly.
+
+### Usage
+
+To run the script, use the following command in the terminal:
+
+```powershell
+& python LLM_API.py
+
