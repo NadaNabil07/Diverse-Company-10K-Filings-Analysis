@@ -93,6 +93,7 @@ To run the script, use the following command in the terminal:
 
 ```powershell
  python LLM_API.py
+```
 ## Insights 
 To generate insights run the Python script named Insight_Generation.py.
 
@@ -104,5 +105,8 @@ You can find the representations, in the 'visualizations folder. They present th
 
 Wrap up
 This project offers a set of tools to analyze and visualize details extracted from 10 K filings. It assists stakeholders in their decision making processes.
+
+Note : Did not finished the project due to the final exams , but for sure back completing it in a perfect way because it is so amzing project 
+contact me : nada.nabi.soudi@gamil.com 
 
 
