@@ -44,3 +44,19 @@ Replace `your_email@example.com` with your actual email address before running t
 To run the script, execute it in your terminal:
 `python download_filings.py`
 This will download all the 10-K filings for the specified companies and years into the sec_filings directory.
+# task 1.2 
+## step 1 : DMake sure to adjust the paths according to your Python installation and script location.ata Cleaning and Extraction 
+Make sure to adjust the paths according to your Python installation and script location.
+Run 
+Output
+The script will process each text file in the specified directory, extracting and printing the metadata to the console. The output includes:
+
+<SEC-DOCUMENT>: The name and date of the document.
+<SEC-HEADER>: The header information of the document.
+ACCESSION NUMBER: The unique identifier for the submission.
+CONFORMED SUBMISSION TYPE: The type of report, e.g., 10-K.
+PUBLIC DOCUMENT COUNT: The number of documents included in the submission.
+CONFORMED PERIOD OF REPORT: The period that the report covers.
+FILED AS OF DATE: The date the document was filed.
+COMPANY DATA: Information about the company, including the conformed name, central index key, standard industrial classification, and IRS number.
+
